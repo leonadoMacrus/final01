@@ -21,7 +21,8 @@ y <- df$IncomePerCap
 compositional_data[compositional_data == 0] <- 1e-6
 
 # Áp dụng phép biến đổi clr
-clr_data <- clr(compositional_data)
+clr_data <- clr(compositi
++onal_data)
 
 # Chia dữ liệu thành tập huấn luyện và tập kiểm tra
 set.seed(42)
